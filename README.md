@@ -16,6 +16,7 @@ El módulo de certificados requiere software externo para convertir Word a PDF.
 - **LibreOffice**: Debe estar instalado en la ruta por defecto.
   - Ruta esperada: `C:\Program Files\LibreOffice\program\soffice.exe`
   - *Sin esto, los certificados se descargarán solo como Word (.docx).*
+  - **Importante:** La plantilla base se encuentra en `certificados/MODELO CERTIFICADO TÍTULO.docx`. **NO BORRAR ESTE ARCHIVO** o la generación fallará.
 
 ### 3. Procesamiento de Imágenes (OCR)
 Para la lectura automática de expedientes PDF escaneados.
