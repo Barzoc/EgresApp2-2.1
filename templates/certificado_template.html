@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificado de Título</title>
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            background-color: #ffffff;
+            padding: 0;
+            margin: 0;
+        }
+
+        .certificate-container {
+            width: 210mm;
+            min-height: 297mm;
+            padding: 15mm;
+            margin: 0 auto;
+            background-color: #ffffff;
+            position: relative;
+        }
+
+        .certificate-border {
+            border: 3px solid #092483;
+            padding: 10mm;
+            min-height: 260mm;
+            position: relative;
+        }
+
+        .certificate-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .logo {
+            width: 70px;
+            height: auto;
+            margin: 0 auto 20px;
+            display: block;
+        }
+
+        .institution-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #092483;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .institution-motto {
+            font-size: 11px;
+            font-style: italic;
+            color: #092483;
+            margin-bottom: 35px;
+        }
+
+        .certificate-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #092483;
+            margin-bottom: 50px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .certificate-body {
+            text-align: center;
+            font-size: 12pt;
+            line-height: 1.6;
+            color: #000000;
+            margin-bottom: 60px;
+            padding: 0 5mm;
+        }
+
+        .certificate-body p {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .highlight {
+            font-weight: bold;
+        }
+
+        .certificate-footer {
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        .disclaimer {
+            font-size: 9px;
+            font-style: italic;
+            color: #666666;
+            margin-bottom: 50px;
+        }
+
+        .signature-line {
+            width: 200px;
+            border-top: 1px solid #000000;
+            margin: 0 auto 5px;
+        }
+
+        .signature-name {
+            font-size: 11px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 2px;
+        }
+
+        .signature-title {
+            font-size: 11px;
+            font-style: italic;
+            color: #333333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="certificate-container">
+        <div class="certificate-border">
+            <div class="certificate-header">
+                <img src="{{logo_path}}" alt="Logo Liceo" class="logo">
+                <div class="institution-name">Liceo Bicentenario Domingo Santa María</div>
+                <div class="institution-motto">"Desde nuestro norte ser más y engrandecer a Chile"</div>
+                <div class="certificate-title">Certificado de Título</div>
+            </div>
+
+            <div class="certificate-body">
+                <p>
+                    En conformidad con los reglamentos vigentes, el Liceo Bicentenario Domingo Santa María certifica que
+                    con fecha <span class="highlight">{{fecha_titulo}}</span> se le confirió a Don (ña) <span
+                        class="highlight">{{nombre_completo}}</span>.
+                </p>
+
+                <p>
+                    RUT <span class="highlight">{{rut}}</span>, el título de <span class="highlight">{{titulo}}</span>.
+                </p>
+
+                <p>
+                    De acuerdo a lo prescrito en el artículo N° 12 del Decreto Ley N° 2516/2007,
+                    el título queda registrado con el N° <span class="highlight">{{numero_registro}}</span>.
+                </p>
+
+                <p>
+                    Se emite el presente certificado con fecha <span class="highlight">{{fecha_emision}}</span>.
+                </p>
+            </div>
+
+            <div class="certificate-footer">
+                <div class="disclaimer">
+                    Este documento se emite sin firma ni timbre.
+                </div>
+
+                <div class="signature-line"></div>
+                <div class="signature-name">{{rector}}</div>
+                <div class="signature-title">RECTOR(A)</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

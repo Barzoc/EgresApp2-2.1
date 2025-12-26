@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Test DataTables Egresados</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .status { padding: 10px; margin: 10px 0; border-radius: 5px; }
+        .success { background: #d4edda; color: #155724; }
+        .error { background: #f8d7da; color: #721c24; }
+        .info { background: #d1ecf1; color: #0c5460; }
+    </style>
+</head>
+<body>
+    <h1>Test de Tabla de Egresados</h1>
+    
+    <div id="status" class="status info">Cargando...</div>
+    
+    <h2>Tabla de Egresados</h2>
+    <table id="tabla" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Nombre Completo</th>
+                <th>Correo</th>
+                <th>Carnet</th>
+                <th>Sexo</th>
+                <th>Título</th>
+            </tr>
+        </thead>
+    </table>
+
+    <script>
+    $(document).ready(function() {
+        // Test directo del endpoint
+        $.ajax({
+            url: 'controlador/EgresadoController.php',
+            method: 'POST',
+            data: { funcion: 'listar' },
+            dataType: 'json',
+            success: function(data) {
+                console.log('Datos recibidos:', data);
+                $('#status').removeClass('info').addClass('success')
+                    .html(`✓ Datos recibidos correctamente: ${data.length} registros`);
+                
+                // Inicializar DataTable con los datos
+                $('#tabla').DataTable({
+                    data: data,
+                    columns: [
+                        { data: 'nombreCompleto' },
+                        { data: 'correoPrincipal' },
+                        { data: 'carnet' },
+                        { data: 'sexo' },
+                        { 
+                            data: null,
+                            render: function(data, type, row) {
+                                return row.titulo_catalogo || row.titulo_obtenido || row.titulo || '';
+                            }
+                        }
+                    ],
+                    language: {
+                        lengthMenu: "Mostrar _MENU_ registros",
+                        zeroRecords: "No se encontraron resultados",
+                        info: "Registros del _START_ al _END_ de un total de _TOTAL_ registros",
+                        infoEmpty: "Registros del 0 al 0 de un total de 0 registros",
+                        infoFiltered: "(filtrado de un total de _MAX_ registros)",
+                        search: "Buscar:",
+                        paginate: {
+                            first: "Primero",
+                            last: "Último",
+                            next: "Siguiente",
+                            previous: "Anterior"
+                        }
+                    }
+                });
+            },
+            error: function(xhr, status, error) {
+                console.error('Error:', error);
+                console.log('Response:', xhr.responseText);
+                $('#status').removeClass('info').addClass('error')
+                    .html(`✗ Error al cargar datos: ${error}<br>Respuesta: ${xhr.responseText.substring(0, 200)}`);
+            }
+        });
+    });
+    </script>
+</body>
+</html>

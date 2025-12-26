@@ -1,0 +1,272 @@
+[2025-12-01 15:41:48] [INFO] Iniciando instalacion completa de EGRESAPP2
+[2025-12-01 15:41:48] [INFO] Directorio de instalacion: D:\EGRESAPP2
+[2025-12-01 15:41:48] [STEP] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache)
+[2025-12-01 15:41:48] [ERROR] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache) fallo: El término 'catch' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+[2025-12-01 15:41:48] [ERROR] Laragon es requerido para continuar. Instalacion abortada.
+[2025-12-01 15:45:11] [INFO] Iniciando instalacion completa de EGRESAPP2
+[2025-12-01 15:45:11] [INFO] Directorio de instalacion: D:\EGRESAPP2
+[2025-12-01 15:45:11] [STEP] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache)
+[2025-12-01 15:47:45] [SUCCESS] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache) completado
+[2025-12-01 15:47:48] [STEP] PASO 2/6: Copiando archivos del proyecto
+[2025-12-01 15:47:48] [INFO] Copiando archivos a C:\laragon\www\EGRESAPP2...
+[2025-12-01 15:48:46] [SUCCESS] Archivos copiados correctamente
+[2025-12-01 15:48:49] [STEP] PASO 3/6: Instalando dependencias (Composer, Tesseract, ImageMagick, LibreOffice)
+[2025-12-01 15:48:49] [ERROR] PASO 3/6: Instalando dependencias (Composer, Tesseract, ImageMagick, LibreOffice) fallo: En C:\laragon\www\EGRESAPP2\InstalarDependencias.ps1: 114 Carácter: 138
++ ... ) + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
++                                                             ~~~~~~~~~~~~~
+Token 'Path","User")
+        Write-Log "Chocolatey' inesperado en la expresión o la instrucción.
+
+En C:\laragon\www\EGRESAPP2\InstalarDependencias.ps1: 138 Carácter: 142
++ ... ) + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
++                                                             ~~~~~~~~~~~~~
+Token 'Path","User")
+            Write-Log "Composer' inesperado en la expresión o la instrucción.
+
+En C:\laragon\www\EGRESAPP2\InstalarDependencias.ps1: 149 Carácter: 142
++ ... ) + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
++                                                             ~~~~~~~~~~~~~
+Token 'Path","User")
+            Write-Log "Composer' inesperado en la expresión o la instrucción.
+
+En C:\laragon\www\EGRESAPP2\InstalarDependencias.ps1: 186 Carácter: 105
++ ... vironmentVariable("Path", $currentPath + ";$tesseractPath", "Machine" ...
++                                                              ~~~~
+Token '", "' inesperado en la expresión o la instrucción.
+
+En C:\laragon\www\EGRESAPP2\InstalarDependencias.ps1: 186 Carácter: 109
++ ... ironmentVariable("Path", $currentPath + ";$tesseractPath", "Machine")
++                                                                 ~~~~~~~~~
+Token 'Machine")
+                    $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + "' inesperado en la expresión o la instrucción.
+
+En C:\laragon\www\EGRESAPP2\InstalarDependencias.ps1: 187 Carácter: 150
++ ... ) + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
++                                                             ~~~~~~~~~~~~~
+Token 'Path","User")
+                }
+            }
+            
+            Write-Log "Tesseract' inesperado en la expresión o la instrucción.
+
+En C:\laragon\www\EGRESAPP2\InstalarDependencias.ps1: 201 Carácter: 142
++ ... ) + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
++                                                             ~~~~~~~~~~~~~
+Token 'Path","User")
+            Write-Log "Tesseract' inesperado en la expresión o la instrucción.
+
+En C:\laragon\www\EGRESAPP2\InstalarDependencias.ps1: 233 Carácter: 142
++ ... ) + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
++                                                             ~~~~~~~~~~~~~
+Token 'Path","User")
+            Write-Log "ImageMagick' inesperado en la expresión o la instrucción.
+
+En C:\laragon\www\EGRESAPP2\InstalarDependencias.ps1: 244 Carácter: 142
++ ... ) + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
++                                                             ~~~~~~~~~~~~~
+Token 'Path","User")
+            Write-Log "ImageMagick' inesperado en la expresión o la instrucción.
+
+En C:\laragon\www\EGRESAPP2\InstalarDependencias.ps1: 413 Carácter: 35
++         $commentedPattern = ";$ext"
++                                   ~
+Token '"
+        
+        if ($phpIniContent -match "' inesperado en la expresión o la instrucción.
+
+No se notificaron todos los errores de análisis. Corrija los errores notificados e inténtelo de nuevo.
+[2025-12-01 15:48:52] [STEP] PASO 4/6: Importando base de datos
+[2025-12-01 15:48:52] [ERROR] PASO 4/6: Importando base de datos fallo con codigo: 1
+[2025-12-01 15:48:54] [STEP] PASO 5/6: Configurando conexion a base de datos
+[2025-12-01 15:48:55] [SUCCESS] Conexion a base de datos configurada
+[2025-12-01 15:48:57] [STEP] PASO 6/6: Creando acceso directo en el escritorio
+[2025-12-01 15:48:57] [SUCCESS] PASO 6/6: Creando acceso directo en el escritorio completado
+[2025-12-01 15:57:10] [INFO] Iniciando instalacion completa de EGRESAPP2
+[2025-12-01 15:57:10] [INFO] Directorio de instalacion: D:\EGRESAPP2
+[2025-12-01 15:57:10] [STEP] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache)
+[2025-12-01 15:59:50] [SUCCESS] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache) completado
+[2025-12-01 15:59:53] [STEP] PASO 2/6: Copiando archivos del proyecto
+[2025-12-01 15:59:53] [INFO] Copiando archivos a C:\laragon\www\EGRESAPP2...
+[2025-12-01 16:00:29] [SUCCESS] Archivos copiados correctamente
+[2025-12-01 16:00:31] [STEP] PASO 3/6: Instalando dependencias (Composer, Tesseract, ImageMagick, LibreOffice)
+[2025-12-01 16:10:31] [INFO] Iniciando instalacion completa de EGRESAPP2
+[2025-12-01 16:10:31] [INFO] Directorio de instalacion: D:\EGRESAPP2
+[2025-12-01 16:10:31] [STEP] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache)
+[2025-12-01 16:12:54] [SUCCESS] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache) completado
+[2025-12-01 16:12:57] [STEP] PASO 2/6: Copiando archivos del proyecto
+[2025-12-01 16:12:58] [INFO] Copiando archivos a C:\laragon\www\EGRESAPP2...
+[2025-12-01 16:13:32] [SUCCESS] Archivos copiados correctamente
+[2025-12-01 16:13:35] [STEP] PASO 3/6: Instalando dependencias (Composer, Tesseract, ImageMagick, LibreOffice)
+[2025-12-01 16:17:41] [ERROR] PASO 3/6: Instalando dependencias (Composer, Tesseract, ImageMagick, LibreOffice) fallo con codigo: 4
+[2025-12-01 16:17:45] [STEP] PASO 4/6: Importando base de datos
+[2025-12-01 16:17:45] [ERROR] PASO 4/6: Importando base de datos fallo con codigo: 1
+[2025-12-01 16:17:47] [STEP] PASO 5/6: Configurando conexion a base de datos
+[2025-12-01 16:17:47] [SUCCESS] Conexion a base de datos configurada
+[2025-12-01 16:17:49] [STEP] PASO 6/6: Creando acceso directo en el escritorio
+[2025-12-01 16:17:49] [SUCCESS] PASO 6/6: Creando acceso directo en el escritorio completado
+[2025-12-01 16:37:25] [INFO] Iniciando instalacion completa de EGRESAPP2
+[2025-12-01 16:37:25] [INFO] Directorio de instalacion: D:\EGRESAPP2
+[2025-12-01 16:37:25] [STEP] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache)
+[2025-12-01 16:37:40] [SUCCESS] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache) completado
+[2025-12-01 16:37:43] [STEP] PASO 2/6: Copiando archivos del proyecto
+[2025-12-01 16:37:43] [INFO] Copiando archivos a C:\laragon\www\EGRESAPP2...
+[2025-12-01 16:38:17] [SUCCESS] Archivos copiados correctamente
+[2025-12-01 16:38:19] [STEP] PASO 3/6: Instalando dependencias (Composer, Tesseract, ImageMagick, LibreOffice)
+[2025-12-01 16:38:59] [ERROR] PASO 3/6: Instalando dependencias (Composer, Tesseract, ImageMagick, LibreOffice) fallo con codigo: 4
+[2025-12-01 16:39:02] [STEP] PASO 4/6: Importando base de datos
+[2025-12-01 16:39:02] [ERROR] PASO 4/6: Importando base de datos fallo con codigo: 1
+[2025-12-01 16:39:04] [STEP] PASO 5/6: Configurando conexion a base de datos
+[2025-12-01 16:39:04] [SUCCESS] Conexion a base de datos configurada
+[2025-12-01 16:39:06] [STEP] PASO 6/6: Creando acceso directo en el escritorio
+[2025-12-01 16:39:06] [SUCCESS] PASO 6/6: Creando acceso directo en el escritorio completado
+[2025-12-01 16:43:16] [INFO] Iniciando instalacion completa de EGRESAPP2
+[2025-12-01 16:43:16] [INFO] Directorio de instalacion: D:\EGRESAPP2
+[2025-12-01 16:43:16] [STEP] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache)
+[2025-12-01 16:43:16] [SUCCESS] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache) completado
+[2025-12-01 16:43:19] [STEP] PASO 2/6: Copiando archivos del proyecto
+[2025-12-01 16:43:19] [INFO] Copiando archivos a C:\laragon\www\EGRESAPP2...
+[2025-12-01 16:43:51] [SUCCESS] Archivos copiados correctamente
+[2025-12-01 16:43:53] [STEP] PASO 3/6: Instalando dependencias (Composer, Tesseract, ImageMagick, LibreOffice)
+[2025-12-01 16:48:52] [ERROR] PASO 3/6: Instalando dependencias (Composer, Tesseract, ImageMagick, LibreOffice) fallo con codigo: 4
+[2025-12-01 16:48:55] [STEP] PASO 4/6: Importando base de datos
+[2025-12-01 16:49:55] [ERROR] PASO 4/6: Importando base de datos fallo con codigo: 1
+[2025-12-01 16:49:58] [STEP] PASO 5/6: Configurando conexion a base de datos
+[2025-12-01 16:49:58] [SUCCESS] Conexion a base de datos configurada
+[2025-12-01 16:50:00] [STEP] PASO 6/6: Creando acceso directo en el escritorio
+[2025-12-01 16:50:00] [SUCCESS] PASO 6/6: Creando acceso directo en el escritorio completado
+[2025-12-01 17:09:46] [INFO] Iniciando instalacion completa de EGRESAPP2
+[2025-12-01 17:09:46] [INFO] Directorio de instalacion: D:\EGRESAPP2
+[2025-12-01 17:09:46] [STEP] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache)
+[2025-12-01 17:10:14] [SUCCESS] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache) completado
+[2025-12-01 17:10:14] [INFO] Esperando a que MySQL este listo...
+[2025-12-01 17:10:14] [SUCCESS] MySQL encontrado en: C:\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysql.exe
+[2025-12-01 17:10:14] [SUCCESS] MySQL esta listo y respondiendo
+[2025-12-01 17:10:17] [STEP] PASO 2/6: Copiando archivos del proyecto
+[2025-12-01 17:10:17] [INFO] Copiando archivos a C:\laragon\www\EGRESAPP2...
+[2025-12-01 17:10:42] [SUCCESS] Archivos copiados correctamente
+[2025-12-01 17:10:44] [STEP] PASO 3/6: Instalando dependencias (Composer, Tesseract, ImageMagick, LibreOffice)
+[2025-12-01 17:10:54] [ERROR] PASO 3/6: Instalando dependencias (Composer, Tesseract, ImageMagick, LibreOffice) fallo con codigo: 4
+[2025-12-01 17:10:57] [STEP] PASO 4/6: Importando base de datos
+[2025-12-01 17:10:57] [ERROR] PASO 4/6: Importando base de datos fallo con codigo: 1
+[2025-12-01 17:10:59] [STEP] PASO 5/6: Configurando conexion a base de datos
+[2025-12-01 17:10:59] [SUCCESS] Conexion a base de datos configurada
+[2025-12-01 17:11:01] [STEP] PASO 6/6: Creando acceso directo en el escritorio
+[2025-12-01 17:11:01] [SUCCESS] PASO 6/6: Creando acceso directo en el escritorio completado
+[2025-12-01 17:21:11] [INFO] Iniciando instalacion completa de EGRESAPP2
+[2025-12-01 17:21:11] [INFO] Directorio de instalacion: D:\EGRESAPP2
+[2025-12-01 17:21:11] [STEP] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache)
+[2025-12-01 17:21:16] [SUCCESS] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache) completado
+[2025-12-01 17:21:16] [INFO] Esperando a que MySQL este listo...
+[2025-12-01 17:21:16] [SUCCESS] MySQL encontrado en: C:\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysql.exe
+[2025-12-01 17:21:16] [SUCCESS] MySQL esta listo y respondiendo
+[2025-12-01 17:21:19] [STEP] PASO 2/6: Copiando archivos del proyecto
+[2025-12-01 17:21:19] [INFO] Copiando archivos a C:\laragon\www\EGRESAPP2...
+[2025-12-01 17:21:51] [SUCCESS] Archivos copiados correctamente
+[2025-12-01 17:21:53] [STEP] PASO 3/6: Instalando dependencias (Composer, Tesseract, ImageMagick, LibreOffice)
+[2025-12-01 17:22:04] [ERROR] PASO 3/6: Instalando dependencias (Composer, Tesseract, ImageMagick, LibreOffice) fallo con codigo: 4
+[2025-12-01 17:22:07] [STEP] PASO 4/6: Importando base de datos
+[2025-12-01 17:22:07] [ERROR] PASO 4/6: Importando base de datos fallo con codigo: 1
+[2025-12-01 17:22:09] [STEP] PASO 5/6: Configurando conexion a base de datos
+[2025-12-01 17:22:09] [SUCCESS] Conexion a base de datos configurada
+[2025-12-01 17:22:11] [STEP] PASO 6/6: Creando acceso directo en el escritorio
+[2025-12-01 17:22:11] [SUCCESS] PASO 6/6: Creando acceso directo en el escritorio completado
+[2025-12-01 17:28:59] [INFO] Iniciando instalacion completa de EGRESAPP2
+[2025-12-01 17:28:59] [INFO] Directorio de instalacion: D:\EGRESAPP2
+[2025-12-01 17:28:59] [STEP] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache)
+[2025-12-01 17:29:04] [SUCCESS] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache) completado
+[2025-12-01 17:29:05] [INFO] Esperando a que MySQL este listo...
+[2025-12-01 17:29:05] [SUCCESS] MySQL encontrado en: C:\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysql.exe
+[2025-12-01 17:29:05] [SUCCESS] MySQL esta listo y respondiendo
+[2025-12-01 17:29:08] [STEP] PASO 2/6: Copiando archivos del proyecto
+[2025-12-01 17:29:08] [INFO] Copiando archivos a C:\laragon\www\EGRESAPP2...
+[2025-12-01 17:29:34] [SUCCESS] Archivos copiados correctamente
+[2025-12-01 17:29:36] [STEP] PASO 3/6: Instalando dependencias (Composer, Tesseract, ImageMagick, LibreOffice)
+[2025-12-01 17:30:02] [ERROR] PASO 3/6: Instalando dependencias (Composer, Tesseract, ImageMagick, LibreOffice) fallo con codigo: 4
+[2025-12-01 17:30:06] [STEP] PASO 4/6: Importando base de datos
+[2025-12-01 17:30:06] [ERROR] PASO 4/6: Importando base de datos fallo con codigo: 1
+[2025-12-01 17:30:08] [STEP] PASO 5/6: Configurando conexion a base de datos
+[2025-12-01 17:30:08] [SUCCESS] Conexion a base de datos configurada
+[2025-12-01 17:30:10] [STEP] PASO 6/6: Creando acceso directo en el escritorio
+[2025-12-01 17:30:10] [SUCCESS] PASO 6/6: Creando acceso directo en el escritorio completado
+[2025-12-01 17:32:36] [INFO] Iniciando instalacion completa de EGRESAPP2
+[2025-12-01 17:32:37] [INFO] Directorio de instalacion: D:\EGRESAPP2
+[2025-12-01 17:32:37] [STEP] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache)
+[2025-12-01 17:32:42] [SUCCESS] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache) completado
+[2025-12-01 17:32:42] [INFO] Esperando a que MySQL este listo...
+[2025-12-01 17:32:42] [SUCCESS] MySQL encontrado en: C:\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysql.exe
+[2025-12-01 17:32:42] [SUCCESS] MySQL esta listo y respondiendo
+[2025-12-01 17:32:45] [STEP] PASO 2/6: Copiando archivos del proyecto
+[2025-12-01 17:32:45] [INFO] Copiando archivos a C:\laragon\www\EGRESAPP2...
+[2025-12-01 17:33:17] [SUCCESS] Archivos copiados correctamente
+[2025-12-01 17:33:19] [STEP] PASO 3/6: Instalando dependencias (Composer, Tesseract, ImageMagick, LibreOffice)
+[2025-12-01 17:33:28] [ERROR] PASO 3/6: Instalando dependencias (Composer, Tesseract, ImageMagick, LibreOffice) fallo con codigo: 4
+[2025-12-01 17:33:31] [STEP] PASO 4/6: Importando base de datos
+[2025-12-01 17:33:32] [ERROR] PASO 4/6: Importando base de datos fallo con codigo: 1
+[2025-12-01 17:33:34] [STEP] PASO 5/6: Configurando conexion a base de datos
+[2025-12-01 17:33:34] [SUCCESS] Conexion a base de datos configurada
+[2025-12-01 17:33:36] [STEP] PASO 6/6: Creando acceso directo en el escritorio
+[2025-12-01 17:33:36] [SUCCESS] PASO 6/6: Creando acceso directo en el escritorio completado
+[2025-12-01 18:27:13] [INFO] Iniciando instalacion completa de EGRESAPP2
+[2025-12-01 18:27:14] [INFO] Directorio de instalacion: D:\EGRESAPP2
+[2025-12-01 18:27:14] [STEP] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache)
+[2025-12-01 18:27:19] [SUCCESS] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache) completado
+[2025-12-01 18:27:19] [INFO] Esperando a que MySQL este listo...
+[2025-12-01 18:27:19] [SUCCESS] MySQL encontrado en: C:\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysql.exe
+[2025-12-01 18:27:19] [SUCCESS] MySQL esta listo y respondiendo
+[2025-12-01 18:27:22] [STEP] PASO 2/6: Copiando archivos del proyecto
+[2025-12-01 18:27:22] [INFO] Copiando archivos a C:\laragon\www\EGRESAPP2...
+[2025-12-01 18:27:51] [SUCCESS] Archivos copiados correctamente
+[2025-12-01 18:27:53] [STEP] PASO 3/6: Instalando dependencias (Composer, Tesseract, ImageMagick, LibreOffice)
+[2025-12-01 18:28:12] [ERROR] PASO 3/6: Instalando dependencias (Composer, Tesseract, ImageMagick, LibreOffice) fallo con codigo: 4
+[2025-12-01 18:28:15] [STEP] PASO 4/6: Importando base de datos
+[2025-12-01 18:28:16] [ERROR] PASO 4/6: Importando base de datos fallo con codigo: 1
+[2025-12-01 18:28:18] [STEP] PASO 5/6: Configurando conexion a base de datos
+[2025-12-01 18:28:18] [SUCCESS] Conexion a base de datos configurada
+[2025-12-01 18:28:20] [STEP] PASO 6/6: Creando acceso directo en el escritorio
+[2025-12-01 18:28:20] [SUCCESS] PASO 6/6: Creando acceso directo en el escritorio completado
+[2025-12-01 18:47:19] [INFO] Iniciando instalacion completa de EGRESAPP2
+[2025-12-01 18:47:19] [INFO] Directorio de instalacion: D:\EGRESAPP2
+[2025-12-01 18:47:20] [STEP] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache)
+[2025-12-01 18:49:36] [SUCCESS] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache) completado
+[2025-12-01 18:49:36] [INFO] Esperando a que MySQL este listo...
+[2025-12-01 18:49:36] [SUCCESS] MySQL encontrado en: C:\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysql.exe
+[2025-12-01 18:49:38] [SUCCESS] MySQL esta listo y respondiendo
+[2025-12-01 18:49:42] [STEP] PASO 2/6: Copiando archivos del proyecto
+[2025-12-01 18:49:42] [INFO] Copiando archivos a C:\laragon\www\EGRESAPP2...
+[2025-12-01 18:50:37] [SUCCESS] Archivos copiados correctamente
+[2025-12-01 18:50:39] [STEP] PASO 3/6: Instalando dependencias (Composer, Tesseract, ImageMagick, LibreOffice)
+[2025-12-01 18:51:49] [ERROR] PASO 3/6: Instalando dependencias (Composer, Tesseract, ImageMagick, LibreOffice) fallo con codigo: 4
+[2025-12-01 18:51:53] [STEP] PASO 4/6: Importando base de datos
+[2025-12-01 18:51:53] [SUCCESS] PASO 4/6: Importando base de datos completado
+[2025-12-01 18:51:55] [STEP] PASO 5/6: Configurando conexion a base de datos
+[2025-12-01 18:51:55] [SUCCESS] Conexion a base de datos configurada
+[2025-12-01 18:51:57] [STEP] PASO 6/6: Creando acceso directo en el escritorio
+[2025-12-01 18:51:57] [SUCCESS] PASO 6/6: Creando acceso directo en el escritorio completado
+[2025-12-01 21:22:36] [INFO] Iniciando instalacion completa de EGRESAPP2
+[2025-12-01 21:22:36] [INFO] Directorio de instalacion: D:\EGRESAPP2
+[2025-12-01 21:22:36] [STEP] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache)
+[2025-12-01 21:24:50] [SUCCESS] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache) completado
+[2025-12-01 21:24:50] [INFO] Esperando a que MySQL este listo...
+[2025-12-01 21:24:50] [SUCCESS] MySQL encontrado en: C:\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysql.exe
+[2025-12-01 21:24:53] [SUCCESS] MySQL esta listo y respondiendo
+[2025-12-01 21:24:56] [STEP] PASO 2/6: Copiando archivos del proyecto
+[2025-12-01 21:24:56] [INFO] Copiando archivos a C:\laragon\www\EGRESAPP2...
+[2025-12-01 21:25:31] [SUCCESS] Archivos copiados correctamente
+[2025-12-01 21:25:36] [STEP] PASO 3/6: Instalando dependencias (Composer, Tesseract, ImageMagick, LibreOffice)
+[2025-12-01 21:26:42] [ERROR] PASO 3/6: Instalando dependencias (Composer, Tesseract, ImageMagick, LibreOffice) fallo con codigo: 4
+[2025-12-01 21:26:45] [STEP] PASO 4/6: Importando base de datos
+[2025-12-01 21:26:45] [SUCCESS] PASO 4/6: Importando base de datos completado
+[2025-12-01 21:26:47] [STEP] PASO 5/6: Configurando conexion a base de datos
+[2025-12-01 21:26:47] [SUCCESS] Conexion a base de datos configurada
+[2025-12-01 21:26:49] [STEP] PASO 6/6: Creando acceso directo en el escritorio
+[2025-12-01 21:26:49] [SUCCESS] PASO 6/6: Creando acceso directo en el escritorio completado
+[2025-12-02 22:24:56] [INFO] Iniciando instalaciÃ³n completa de EGRESAPP2
+[2025-12-02 22:24:57] [INFO] Directorio de instalaciÃ³n: D:\EGRESAPP2
+[2025-12-02 22:24:57] [STEP] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache)
+[2025-12-02 22:24:57] [ERROR] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache) fallÃ³: El término 'catch' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+[2025-12-02 22:24:57] [ERROR] Laragon es requerido para continuar. InstalaciÃ³n abortada.
+[2025-12-03 02:14:00] [INFO] Iniciando instalaciÃ³n completa de EGRESAPP2
+[2025-12-03 02:14:00] [INFO] Directorio de instalaciÃ³n: D:\EGRESAPP2
+[2025-12-03 02:14:00] [STEP] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache)
+[2025-12-03 02:14:00] [ERROR] PASO 1/6: Instalando Laragon (PHP + MySQL + Apache) fallÃ³: El término 'catch' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+[2025-12-03 02:14:00] [ERROR] Laragon es requerido para continuar. InstalaciÃ³n abortada.

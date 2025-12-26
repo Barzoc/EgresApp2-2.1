@@ -1,0 +1,506 @@
+﻿=======================================================
+  ACTUALIZACI├ôN DE RUTAS EN BASE DE DATOS
+=======================================================
+
+[1/4] Obteniendo registros de la base de datos...
+  Total de registros con expediente: 115
+
+[2/4] Verificando archivos y rutas...
+
+ID: 1 | ADRI├üN V├ìCTOR ANDR├ëS YA├æEZ ROJAS
+  Ruta BD: tecnico-en-administracion/ADRIAN_VICTOR_ANDRES_YA__EZ_ROJAS__000013.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 2 | ALLAN CHRISTIAN BAHAMONDES CASTRO
+  Ruta BD: tecnico-en-administracion/ALLAN_CHRISTIAN_BAHAMONDES_CASTRO.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 3 | ARASHZAY YASM─░N ARIAS CARRASCO
+  Ruta BD: tecnico-en-administracion/ARASHZAY_YASMIN_ARIAS_CARRASCO_019140.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 4 | DIEGO ANTONIO D├ìAZ JEREZ
+  Ruta BD: tecnico-en-administracion/DIEGO_ANTONIO_DIAZ_JEREZ.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 5 | ESTEFANY ANDREA CAYO ARELLANO
+  Ruta BD: tecnico-en-administracion/ESTEFANY_ANDREA_CAYO_ARRELLANO.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 6 | FELIPE EDUARDO OYARCE N├Ü├æEZ
+  Ruta BD: tecnico-en-administracion/FELIPE_EDUARDO_OYARCE_NU__ES_000009.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 7 | FRANCHESCA MARISOL BUSTOS PALLAUTA
+  Ruta BD: tecnico-en-administracion/FRANCHESCA_MARISOL_BUSTOS_PALLAUTA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 8 | GONZALO ANDR├ëS CARVAJAL TORRES
+  Ruta BD: tecnico-en-administracion/GONZALO_ANDRES_CARVAJAL_TORRES_000003.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 9 | GUISELLE CORAL PI├æA MOLLO
+  Ruta BD: tecnico-en-administracion/GUISELLE_CORAL_PI__A_MOLLO_000010.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 11 | JOHAN PHILLIPP ROJAS ROJAS
+  Ruta BD: tecnico-en-administracion/JOHAN_PHILLIPP_ROJAS_ROJAS.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 12 | KARINA MONSSERRATTE ROCO LARA
+  Ruta BD: tecnico-en-administracion/KARINA_MONSSERRATTE_ROCO_LARA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 13 | LORENA SANDRA XIMENA D├ìAZ ALVAREZ
+  Ruta BD: tecnico-en-administracion/LORENA_SANDRA_XIMENA_DIAZ_ALVAREZ__000005.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 14 | LUIS FABI├üN MALLA VALENZUELA
+  Ruta BD: tecnico-en-administracion/LUIS_FABIAN_MALLA_VALENZUELA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 15 | MANUEL ALEJANDRO CRISTI CARVAJAL
+  Ruta BD: tecnico-en-administracion/MANUEL_ALEJANDRO_CRISTI_CARVAJAL_000004.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 16 | YUDITH CARMEN QUISPE MORALES
+  Ruta BD: tecnico-en-administracion/YUDITH_CARMEN_QUISPE_MORALES.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 17 | NOELIA ANDREA DUBO PIZARRO
+  Ruta BD: tecnico-en-administracion/NOELIA_ANDREA_DUBO_PIZARRO___000006.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 18 | PATRICIA SOLEDAD G├ôMEZ GERTOSIO
+  Ruta BD: tecnico-en-administracion/PATRICIA_SOLEDAD_GOMEZ_GERTOSIO_000007.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 19 | JOEL ABRAHAM VILLANUEVA CHURA
+  Ruta BD: tecnico-en-administracion/JOEL_ABRAHAM_VILLANUEVA_CHURA__000012.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 20 | PEDRO PABLO OLIVARES MORALES 019079
+  Ruta BD: tecnico-en-administracion/PEDRO_PABLO_OLIVARES_MORALES__019079.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 21 | SOLEDAD ANDREA LAGOS GONZ├üLEZ
+  Ruta BD: tecnico-en-administracion/SOLEDAD_ANDREA_LAGOS_GONZALES_000008.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 22 | YANIRA ROMAN├ë VARGAS FIGUEROA
+  Ruta BD: tecnico-en-administracion/YANIRA_ROMANE_VARGAS_FIGUEROA_000011.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 23 | AHILIN NISSIEL APAZA L├üZARO
+  Ruta BD: tecnico-en-administracion/AHILIN_NISSIEL_AZAPA_L__ZARO.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 24 | ABIGAIL ANDREA FIGUEROA VALENCIA
+  Ruta BD: tecnico-en-administracion/ABIGAIL_ANDREA_DIGUEROA_VALENCIA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 25 | ALEICARG PRISILLA ROJAS GONZ├üLEZ
+  Ruta BD: Aleicarg_Prisilla_Rojas_Gonz__lez.pdf
+  [!!] Archivo NO existe en: C:\laragon\www\EGRESAPP2/assets/expedientes/Aleicarg_Prisilla_Rojas_Gonz__lez.pdf
+  [X] Archivo no encontrado en ninguna parte
+
+ID: 26 | DANIELA KARINA SOTO QUEZADA
+  Ruta BD: operaciones-portuarias/Daniela_Karina_Soto_Quezada.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 27 | ABIGAIL ESTER VIZA VIZA
+  Ruta BD: tecnico-en-administracion/ABIGAIL_ESTER_VIZA_VIZA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 28 | ALDO ANTONIO ANCASE DELGADO
+  Ruta BD: operaciones-portuarias/ALDO_ANTONIO_ANCASE_DELGADO.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 29 | ALEJANDRO ALEXI ESCORZA MU├æOZ
+  Ruta BD: tecnico-en-administracion/ALEJANDRO_ALEXI_ESCORZA_MU__OZ.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 30 | ALEJANDRO ANDR├ëS GONZ├üLEZ SILVA
+  Ruta BD: tecnico-en-computacion/ALEJANDROANDR__S_GONZ__LEZ_SILVA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 31 | ALEXIS EDUARDO ROJAS GARC├ìA
+  Ruta BD: tecnico-en-administracion/ALEXIS_EDUARDO_ROJAS_GARC__A.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 32 | ALICIA FADY LOBOS ACUNA
+  Ruta BD: tecnico-en-administracion/ALICIA_FADY_LOBOS_ACU__A.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 33 | ALLISON DEL CARMEN VALLADARES LOPEZ
+  Ruta BD: tecnico-en-administracion/ALISON_CARMEN_VALLADARES_L__PEZ.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 34 | ALLAN ALEJANDRO VEGA FIGUEROA
+  Ruta BD: tecnico-en-administracion/ALLAN_ALEJANDRO_VEGA_FIGUEROA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 35 | ALVARO ALEJANDRO ACU├æA BRAVO
+  Ruta BD: tecnico-en-administracion/ALVARO_ALEJANDRO_ACU__A_BRAVO.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 36 | ALVARO ANDR├ëS CASTILLO FLORES
+  Ruta BD: contabilidad/ALVARO_ANDR__S_CASTILLO_FLORES.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 37 | ANA GRACIELA VASCOP├ë D├ìAZ
+  Ruta BD: tecnico-en-administracion/ANA_GRACIELA_VASCOP___D__AZ.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 38 | ANA MAR├ìA ZAMBRANO P├ëREZ
+  Ruta BD: tecnico-en-administracion/ANA_MARIA_ZAMBRANO_P__REZ.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 39 | ANDREA ELIANA PINTO RIVERA
+  Ruta BD: tecnico-en-administracion/ANDREA_ELIANA_PINTO_RIVERA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 40 | ANDREA PATRICIA ROSAS GOMEZ
+  Ruta BD: tecnico-en-administracion/ANDREA_PATRICIA_ROSAS_G__MEZ.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 41 | ANDR├ëS EDUARDO CUTIPA MAMANI
+  Ruta BD: tecnico-en-administracion/ANDR__S_ADUEARDO_CUTIPA_MAMANI.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 42 | ANDR├ëS NICOL├üS ORTEGA SAN JUAN
+  Ruta BD: tecnico-en-administracion/Andr__s_Nicol__s_Ortega__San_Juan.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 43 | ANDR├ëS RAFAEL INOSTROZA MU├æOZ
+  Ruta BD: tecnico-en-administracion/ANDR__S_RAFAEL_INOSTROZA_MU__OZ.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 44 | ANGEL AARON BRAVO OLIVARES
+  Ruta BD: tecnico-en-administracion/Angel_Aaron_Bravo_Olivares.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 45 | ANGEL FRANCISCO LAGOS CHAMBILLA
+  Ruta BD: tecnico-en-administracion/Angel_Francisco_Lagos_Chambilla.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 46 | ANGELINA GRACE ALVI├æA L├ôPEZ
+  Ruta BD: tecnico-en-administracion/ANGELICA_GRACE_ALVI__A_L__PEZ.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 47 | ANGELO ERICK VERNAL FLORES
+  Ruta BD: tecnico-en-administracion/Angelo_Erick_Vernal_Flores.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 48 | ANYELO SEBASTIAN ASTORGA RUIZ
+  Ruta BD: tecnico-en-administracion/Anyelo_Sebastian_Astorga_Ruiz.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 49 | ARGELIA DEL CARMEN ROJAS GONZ├üLEZ
+  Ruta BD: tecnico-en-administracion/ARGELIA_DEL_CARME_ROJAS_GONZ__LEZ.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 50 | ARNALDO SILVA SALGADO
+  Ruta BD: tecnico-en-administracion/ARNALDO_SILVA_SALGADO.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 51 | ARTURO RAFAEL CONDORI RAMOS
+  Ruta BD: operaciones-portuarias/ARTURO_RAFAEL_CONDORI_RAMOS.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 52 | BARBARA GISSEL BELTR├üN VEGA
+  Ruta BD: tecnico-en-administracion/B__RBARA_GISSEL_BELTR__N_VEGA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 53 | BRAYAND GARY MU├æOZ MALDONADO
+  Ruta BD: tecnico-en-administracion/BRAYAND_GARY_MU__OZ_MALDONADO.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 54 | BRENDA ANDREA ZEGARRA HERRERA
+  Ruta BD: contabilidad/BRENDA_ANDREA_ZEGARRA_HFRRERA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 55 | BRUNO ANDR├ëS D├ìAZ CORTEZ
+  Ruta BD: tecnico-en-administracion/BRUNO_ANDR__S_DIAZ_CORTEZ.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 56 | BRYAN MAURICIO OLMOS NOVA
+  Ruta BD: tecnico-en-administracion/Bryan_Mauricio_Olmos_Nova.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 57 | CECILIA XIMENA RIVERA VIDAL
+  Ruta BD: tecnico-en-administracion/CACILIA_XIMENA_RIVERA_VIDAL.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 58 | CAMILA FERNANDA CASTILLO OLGU├ìN
+  Ruta BD: operaciones-portuarias/CAMILA_FERNANDA_CASTILLO_OLGU__N.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 59 | CAMILA FERNANDA PE├æALOZA RODR├ìGUEZ
+  Ruta BD: tecnico-en-administracion/CAMILA_FERNANDA_PE__ALOZA_RODR__GUEZ.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 60 | CAMILA GISELLE BERETTA PAREDES
+  Ruta BD: tecnico-en-administracion/Camila_Giselle_Beretta_Paredes.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 61 | CAMILA MAR├ìA PILAR GALLEGUILLOS GALLEGUILLOS
+  Ruta BD: tecnico-en-administracion/CAMILA_MARIA_PILAR_GALLEGUILLOS_GALLEGUILLOS.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 62 | CAMILO ALEXIS D├ìAZ VALDERRAMA
+  Ruta BD: operaciones-portuarias/Camilo_Alexias_D__az_Valderrama.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 63 | CAMILO IGNACIO PINEDA MANZANO
+  Ruta BD: tecnico-en-administracion/CAMILO_IGNACIO_PINEDA_MANZANO.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 64 | CARLA ANDREA CONTRERAS CORT├ëS
+  Ruta BD: tecnico-en-administracion/CARLA_ANDREA_CONRERAS_CORT__S.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 65 | CARLOS FABI├üN LARRAGUIBEL ASTUDILLO
+  Ruta BD: tecnico-en-administracion/Carlos_Fabi__n_Larraguibel_Astudillo.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 66 | CARLOS JOS├ë FELIPE NOGUERA FUENZALIDA
+  Ruta BD: tecnico-en-administracion/CARLOS_JOS___FELIPE_NOGUERA_FUENZALIDA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 67 | CARLOS MAURICIO OLIVARES VARAS
+  Ruta BD: tecnico-en-administracion/CARLOS_MAURICIO_OLIVARES_VARAS.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 68 | CAROLINA ANDREA MAIDANA AVALOS
+  Ruta BD: tecnico-en-administracion/CAROLINA_ANDREA_MAIDANA_AVALOS.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 69 | CAROLINA ANDREA VARAS MENA
+  Ruta BD: tecnico-en-administracion/CAROLINA_ANDREA_VARAS_MENA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 70 | CAROLINA VALESKA MU├æOZ VEGA
+  Ruta BD: tecnico-en-administracion/CAROLINA_VALESKA_MU__OZ_VEGA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 71 | CATALINA XIMENA FLORES MERINO
+  Ruta BD: operaciones-portuarias/Catalina_Ximena_Flores_Merino.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 72 | CATALINA JAVIERA ROSARIO CADIMA CADIMA
+  Ruta BD: tecnico-en-administracion/CATALINA_JAVIERA_ROSARIO_CADIMA_CADIMA_1.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 73 | CECILIA ALEJANDRA ALFARO QUINTEROS
+  Ruta BD: operaciones-portuarias/Cecilia_Alejandra_Alfaro_Quinteros.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 74 | CECILIA ESTEFHAN├ìA AVILA CUEVAS
+  Ruta BD: tecnico-en-administracion/CECILIA_ESTEFHAN__A_AVILA_CUEVAS.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 75 | CHRISTIAN ANDR├ëS LE BLANC OLIVARES
+  Ruta BD: tecnico-en-administracion/CHRISTIAN_ANDR__S_LE_BLANC_OLIVARES.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 76 | CHRISTIAN DANIEL AROS PORTILLA
+  Ruta BD: tecnico-en-administracion/CHRISTIAN_DANIEL_AROS_PORTILLA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 77 | CHRISTOPHER ALBERT ANTONIO HONORES LUTTGUE
+  Ruta BD: tecnico-en-administracion/CHRISTOPHER_ALBERT_ANTONIO_HONORES_LUTTGUE.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 78 | DANIEL GONZALO CASTILLO ZU├æIGA
+  Ruta BD: tecnico-en-administracion/Daniel_Gonzalo_Castillo_Zu__iga.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 79 | CINDY JANETTE FUENTEVILLA SILVA
+  Ruta BD: tecnico-en-administracion/CINDY_JANETTE_FUENTEVILLA_SILVA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 80 | CINTHIA CAMILA PONCE MONTERO
+  Ruta BD: tecnico-en-administracion/Cinthia_Camila_Ponce_Montero.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 81 | CLAUDIA ANG├ëLICA AYALA HIDALGO
+  Ruta BD: tecnico-financiero/CLAUDIA_ANG__LICA_AYALA_HIDALGO.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 82 | CLAUDIA FRANCISCA MART├ìNEZ TELLO
+  Ruta BD: tecnico-en-administracion/Claudia_Francisca_Martinez_Tello.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 83 | CLAUDIA ALEJANDRA CALDERON MALUENDA
+  Ruta BD: tecnico-en-administracion/CLAUDIA_ALEJANDRA_CALDERON_MALUENDA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 84 | CLAUDINA ESTER RIVERA NAVARRO
+  Ruta BD: tecnico-en-administracion/CLAUDINA_ESTER_RIVERA_NAVARRO.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 85 | CLAUDIO ALEXIS ARDILES FERNANDEZ
+  Ruta BD: operaciones-portuarias/Claudio_Alexis_Ardiles_Fern__ndez.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 86 | CLAUDIO FABI├üN MU├æOZ SEGOVIA
+  Ruta BD: tecnico-en-administracion/CLAUDIO_FABI__N_MI__OZ_SEGOVIA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 87 | CLAUDIO GONZALO ARAYA SALINAS
+  Ruta BD: tecnico-en-administracion/CLAUDIO_GONZALO_ARAYA_SALINAS.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 88 | CLAUDIO REN├ë CABRERA SARAVIA
+  Ruta BD: tecnico-en-administracion/CLAUDIO_REN___CABRERA_SARAVIA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 89 | CONSTANZA MAGALY NILO MORALES
+  Ruta BD: tecnico-en-administracion/Constanza_Magaly_Nilo_Morales.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 90 | CRISTIAN FERNANDO MONDACA ROMERO
+  Ruta BD: tecnico-en-administracion/CRISTIAN_FERNANDO_MONDACA_ROMERO.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 91 | CRISTIAN FERNANDO SANDOVAL TAPIA
+  Ruta BD: tecnico-en-administracion/CRISTIAN_FERNANDO_SANDOVAL_TAPIA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 92 | CRISTIAN MANUEL RETAMAL ESPINOZA
+  Ruta BD: contabilidad/CRISTIAN_MANUEL_RETAMAL_ESPINOZA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 93 | CRISTINA ANDREA LAZCANO FABIANI
+  Ruta BD: tecnico-en-administracion/Cristina_Andrea_Lazcano_Fabiani.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 94 | CRISTOPHER EDUARDO SANHUEZA ARDILES
+  Ruta BD: tecnico-en-administracion/CRISTOPHER_EDUARDO_SANHUEZA_ARDILES.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 95 | DANIEL HERN├üN PACO APAZ
+  Ruta BD: tecnico-en-administracion/DANIEL_HERN__N_PACO_APAZ.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 96 | DANIELA ALEJANDRA ROJAS ROJAS
+  Ruta BD: tecnico-en-administracion/DANIELA_ALEJANDRA_ROJAS_ROJAS.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 97 | DANIELA ANDREA ALEGRE MU├æOZ
+  Ruta BD: tecnico-en-administracion/DANIELA_ANDREA_ALEGRE_MU__OZ.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 98 | DANIELLA FERNANDA AROS FIGUEROA
+  Ruta BD: tecnico-en-administracion/DANIELA_FERNANDA_AROS_FIGUEROA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 99 | DAYANA ALEJANDRA V├üSQUEZ REAL
+  Ruta BD: tecnico-en-administracion/DAYANA_ALEJANDRA_V__SQUEZ_REAL.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 100 | DEBORA TAMMAR BAUTISTA PIZARRO
+  Ruta BD: tecnico-en-administracion/DEBORA_TAMMAR_BAUTISTA_PIZARRO.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 101 | DENISSE FERNANDA MEDINA LLANQUI
+  Ruta BD: tecnico-en-administracion/Denisse_Fernanda_Medina_Llanqui.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 102 | DENNY MICHAEL YANCA DUR├üN
+  Ruta BD: contabilidad/DENNY_MICHAEL_YANCA_DUR__N.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 103 | DEYSI DE LAS MERCEDES VILLEGAS URRA
+  Ruta BD: DEYSI_DE_LAS_MERCEDES_VILLEGAS_URRA.pdf
+  [!!] Archivo NO existe en: C:\laragon\www\EGRESAPP2/assets/expedientes/DEYSI_DE_LAS_MERCEDES_VILLEGAS_URRA.pdf
+  [X] Archivo no encontrado en ninguna parte
+
+ID: 104 | DEYVI ALONSO MATUTE ECHEVERRIA
+  Ruta BD: tecnico-en-administracion/DEYVI_ALONSO_MATUTE_ECHEVERRIA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 105 | DIANA ROSA TUNA VARAS
+  Ruta BD: contabilidad/DIANA_ROSA_TUNA_VARAS.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 106 | DIEGO ANDR├ëS MAMANI MOLLO
+  Ruta BD: operaciones-portuarias/Diego_Andr__s_Mamani_Mollo.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 107 | DIEGO PABLO GODOY AGUILERA
+  Ruta BD: tecnico-en-administracion/DIEGO_PABLO_GODOY_AGUILERA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 108 | EDUARDO ANDR├ëS GUERRERO TORRES
+  Ruta BD: tecnico-en-administracion/20251218130728_EDUARDO_ANDR__S_GUERRERO_TORRES.pdf
+  [!!] Archivo NO existe en: C:\laragon\www\EGRESAPP2/assets/expedientes/tecnico-en-administracion/20251218130728_EDUARDO_ANDR__S_GUERRERO_TORRES.pdf
+  [X] Archivo no encontrado en ninguna parte
+
+ID: 109 | EDUARDO DAVID GONZ├üLEZ CUADRA
+  Ruta BD: tecnico-en-administracion/EDUARDO_DAVID_GONZ__LEZ_CUADRA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 110 | EL├ìAS ARMANDO CORT├ëS ROMERO
+  Ruta BD: contabilidad/ELIAS_ARMANDO_CORT__S_ROMERO.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 111 | EL├ìAS JAVIER QUISPE CALLE
+  Ruta BD: operaciones-portuarias/Elias_Javier_Quispe_Calle_2.pdf
+  [!!] Archivo NO existe en: C:\laragon\www\EGRESAPP2/assets/expedientes/operaciones-portuarias/Elias_Javier_Quispe_Calle_2.pdf
+  [X] Archivo no encontrado en ninguna parte
+
+ID: 112 | ELVER ALEXI RAMOS CANQUE
+  Ruta BD: tecnico-en-administracion/Elver_Alexi_Ramos_Canque.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 113 | EMILY KARIN IMA├æA FLORES
+  Ruta BD: tecnico-en-administracion/EMILY_KARIN_IMA__A_FLORES.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 114 | ERIKA IVETTE CHOQUE FELIPEZ
+  Ruta BD: tecnico-en-administracion/ERIKA_IVETTE_CHOQUE_FELIPEZ.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 115 | ESTEBAN ALEJANDRO L├ôPEZ OCHOA
+  Ruta BD: contabilidad/ESTEBAN_ALEJANDRO_L__PEZ_OCHOA.pdf
+  [OK] Archivo existe en la ruta correcta
+
+ID: 116 | ESTEFANY NIKOL GONZ├üLEZ VARGAS
+  Ruta BD: tecnico-en-administracion/Estefany_Nikol_Gonz__lez_Vargas.pdf
+  [OK] Archivo existe en la ruta correcta
+
+[3/4] Buscando archivos hu├®rfanos (en disco pero no en BD)...
+
+  [?] Hu├®rfano: STEPHANIE_ALEJANDRA_CORRALES_ROSAS.pdf
+  [?] Hu├®rfano: Elias_Javier_Quispe_Calle.pdf
+  [?] Hu├®rfano: Argelia_Del_Carmen_Rojas_Gonz__lez.pdf
+  [?] Hu├®rfano: Argelia_Del_Carmen_Rojas_Gonz__lez_1.pdf
+  [?] Hu├®rfano: CATALINA_JAVIERA_ROSARIO_CADIMA_CADIMA.pdf
+  [?] Hu├®rfano: EDUARDO_ANDR__S_GUERRERO_TORRES.pdf
+  [?] Hu├®rfano: VINKA_ANDREA_MU__OZ_FLORES.pdf
+
+[4/4] Sincronizando con servidor central...
+  [!!] Trabajando solo con BD local
+
+=======================================================
+                 RESUMEN
+=======================================================
+
+Registros totales:      115
+Rutas correctas:        111
+Rutas actualizadas:     0
+Archivos no encontrados: 4
+Archivos hu├®rfanos:     7
+Errores:                4
+
+Detalle de errores:
+  - ID 25: Archivo 'Aleicarg_Prisilla_Rojas_Gonz__lez.pdf' no encontrado
+  - ID 103: Archivo 'DEYSI_DE_LAS_MERCEDES_VILLEGAS_URRA.pdf' no encontrado
+  - ID 108: Archivo '20251218130728_EDUARDO_ANDR__S_GUERRERO_TORRES.pdf' no encontrado
+  - ID 111: Archivo 'Elias_Javier_Quispe_Calle_2.pdf' no encontrado
+
+Estado: COMPLETADO CON CAMBIOS
+
+=======================================================

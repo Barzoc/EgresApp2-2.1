@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnóstico OCR - EGRESAPP2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .content {
+            padding: 30px;
+        }
+        .section {
+            margin-bottom: 30px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .section-header {
+            background: #f5f5f5;
+            padding: 15px 20px;
+            font-size: 1.3em;
+            font-weight: bold;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        .section-content {
+            padding: 20px;
+        }
+        .check-item {
+            display: grid;
+            grid-template-columns: 50px 300px 1fr;
+            gap: 15px;
+            padding: 15px;
+            border-bottom: 1px solid #f0f0f0;
+            align-items: start;
+        }
+        .check-item:last-child {
+            border-bottom: none;
+        }
+        .status {
+            font-size: 2em;
+            text-align: center;
+        }
+        .check-name {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .check-details {
+            font-size: 0.9em;
+            color: #666;
+            font-family: 'Courier New', monospace;
+            background: #f8f8f8;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+            max-height: 150px;
+        }
+        .summary {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .summary.success {
+            background: #d4edda;
+            border-color: #28a745;
+        }
+        .summary.error {
+            background: #f8d7da;
+            border-color: #dc3545;
+        }
+        .summary h2 {
+            margin-bottom: 15px;
+        }
+        .solution {
+            background: #e7f3ff;
+            border-left: 4px solid #2196F3;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .solution h4 {
+            color: #1976D2;
+            margin-bottom: 10px;
+        }
+        .solution pre {
+            background: #263238;
+            color: #aed581;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin-top: 10px;
+        }
+        .config-info {
+            background: #f0f0f0;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔍 Diagnóstico OCR - EGRESAPP2</h1>
+            <p>Verificación de dependencias para procesamiento de expedientes</p>
+        </div>
+        
+        <div class="content">
+            <div class="section"><div class="section-header">📦 Extensiones PHP Requeridas</div><div class="section-content"><div class="check-item"><div class="status">✅</div><div class="check-name">gd</div><div class="check-details">Procesamiento de imágenes</div></div><div class="check-item"><div class="status">✅</div><div class="check-name">fileinfo</div><div class="check-details">Detección de tipos de archivo</div></div><div class="check-item"><div class="status">✅</div><div class="check-name">mbstring</div><div class="check-details">Manejo de cadenas multibyte (UTF-8)</div></div><div class="check-item"><div class="status">✅</div><div class="check-name">json</div><div class="check-details">Procesamiento de datos JSON</div></div></div></div><div class="section"><div class="section-header">🛠️ Herramientas de Línea de Comandos</div><div class="section-content"><div class="check-item"><div class="status">✅</div><div class="check-name">tesseract</div><div class="check-details"><strong>Motor OCR principal</strong><br>tesseract v5.4.0.20240606
+ leptonica-1.84.1
+  libgif 5.2.1 : libjpeg 8d (libjpeg-turbo 3.0.1) : libpng 1.6.43 : libtiff 4.6.0 : zlib 1.3 : libwebp 1.4.0 : libopenjp2 2.5.2
+ Found AVX512BW
+ Found AVX51</div></div><div class="check-item"><div class="status">✅</div><div class="check-name">convert</div><div class="check-details"><strong>ImageMagick - Conversión de PDF a imágenes</strong><br>Especificaci�n de unidad no v�lida.</div></div><div class="check-item"><div class="status">✅</div><div class="check-name">pdftotext</div><div class="check-details"><strong>Poppler - Extracción de texto de PDF</strong><br>pdftotext version 24.08.0
+Copyright 2005-2024 The Poppler Developers - http://poppler.freedesktop.org
+Copyright 1996-2011, 2022 Glyph &amp; Cog, LLC</div></div><div class="check-item"><div class="status">✅</div><div class="check-name">gs</div><div class="check-details"><strong>Ghostscript - Procesamiento de PDF</strong><br>&quot;gs&quot; no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.</div></div></div></div><div class="section"><div class="section-header">📄 Archivos del Sistema</div><div class="section-content"><div class="check-item"><div class="status">✅</div><div class="check-name">lib/PDFProcessor.php</div><div class="check-details">Clase principal de procesamiento OCR</div></div><div class="check-item"><div class="status">✅</div><div class="check-name">vendor/autoload.php</div><div class="check-details">Autoload de Composer</div></div><div class="check-item"><div class="status">❌</div><div class="check-name">config/pdf_config.php</div><div class="check-details">Configuración de PDF/OCR (opcional)</div></div></div></div><div class="section"><div class="section-header">📚 Paquetes de Composer</div><div class="section-content"><div class="check-item"><div class="status">✅</div><div class="check-name">Smalot\PdfParser\Parser</div><div class="check-details">smalot/pdfparser - Parser de PDF</div></div><div class="check-item"><div class="status">✅</div><div class="check-name">Spatie\PdfToText\Pdf</div><div class="check-details">spatie/pdf-to-text - Extractor de texto</div></div></div></div><div class="section"><div class="section-header">🧪 Prueba de Funcionalidad OCR</div><div class="section-content"><div class="check-item"><div class="status">❌</div><div class="check-name">PDFProcessor</div><div class="check-details">No se pudo realizar la prueba</div></div></div></div><div class="summary success"><h2>✅ Sistema Totalmente Funcional</h2><p>Todas las dependencias están instaladas correctamente. El sistema OCR debería funcionar sin problemas.</p></div><div class="section"><div class="section-header">💻 Información del Sistema</div><div class="section-content"><div class="config-info"><strong>PHP Version:</strong> 8.3.26<br><strong>Sistema Operativo:</strong> WINNT<br><strong>Directorio del proyecto:</strong> C:\laragon\www\EGRESAPP2<br><strong>PATH del sistema:</strong><br><pre style="background: white; padding: 10px; max-height: 200px; overflow-y: auto;">C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program;c:\Users\barzo\AppData\Local\Programs\cursor\resources\app\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\barzo\AppData\Local\Microsoft\WindowsApps;C:\Users\barzo\AppData\Local\Programs\cursor\resources\app\bin;c:\Users\barzo\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\xampp\php;C:\composer;C:\Program Files\Pandoc\;C:\Program Files\Tesseract-OCR;C:\Program Files\poppler\Library\bin;C:\laragon\bin\php\php-8.1.10-Win32-vs16-x64;C:\laragon\bin\mysql\mysql-8.0.30-winx64\bin;C:\laragon\bin\php\php-8.3.26-Win32-vs16-x64;C:\laragon\bin\mysql\mysql-8.4.3-winx64\bin;C:\Program Files\gs\gs10.06.0\bin;C:\Program Files\poppler\Library\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\barzo\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\xampp\php;C:\composer;C:\Program Files\Pandoc\;C:\\Users\\barzo\\AppData\\Local\\Blackbox\\bin;C:\Users\barzo\AppData\Local\Microsoft\WindowsApps;C:\Users\barzo\AppData\Roaming\npm;C:\Users\barzo\AppData\Roaming\Composer\vendor\bin;C:\Users\barzo\AppData\Local\Programs\Ollama;c:\Users\barzo\.windsurf\extensions\ms-python.debugpy-2025.16.0-win32-x64\bundled\scripts\noConfigScripts;C:\Users\barzo\AppData\Local\Programs\Python\Pyth;C:\Users\barzo\AppData\Local\Programs\Antigravity\bin</pre></div></div></div>            
+            <div style="text-align: center; margin-top: 30px; padding: 20px; background: #f5f5f5; border-radius: 10px;">
+                <p><strong>💡 Tip:</strong> Después de instalar las dependencias, reinicia el servidor web y vuelve a ejecutar este diagnóstico.</p>
+                <p style="margin-top: 10px;">
+                    <a href="?" style="display: inline-block; background: #667eea; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; margin: 5px;">🔄 Actualizar Diagnóstico</a>
+                    <a href="test_captura_expediente.php" style="display: inline-block; background: #28a745; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; margin: 5px;">✅ Probar Extracción OCR</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

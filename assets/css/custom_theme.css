@@ -1,0 +1,97 @@
+/* Custom Theme - Tonos Celestes */
+
+/* Navbar */
+.main-header {
+    background-color: #e3f2fd !important;
+    /* Celeste muy claro */
+    border-bottom: 1px solid #90caf9;
+}
+
+.main-header .nav-link {
+    color: #0277bd !important;
+    /* Azul más fuerte para texto */
+}
+
+/* Sidebar */
+.main-sidebar {
+    background-color: #0277bd !important;
+    /* Azul más oscuro */
+}
+
+.main-sidebar .brand-link {
+    border-bottom: 1px solid #4fc3f7;
+    color: #ffffff !important;
+}
+
+.main-sidebar .nav-link {
+    color: #ffffff !important;
+    /* Texto blanco para contraste */
+}
+
+.main-sidebar .nav-link.active {
+    background-color: #01579b !important;
+    /* Azul muy oscuro para activo */
+    color: #ffffff !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+}
+
+.main-sidebar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: #ffffff !important;
+}
+
+.main-sidebar .nav-icon {
+    color: #b3e5fc !important;
+    /* Iconos celeste claro */
+}
+
+/* Sidebar User Panel */
+.user-panel .info a {
+    color: #ffffff !important;
+}
+
+.user-panel {
+    border-bottom: 1px solid #4fc3f7 !important;
+}
+
+/* Cards */
+.card-primary:not(.card-outline)>.card-header {
+    background-color: #0288d1 !important;
+}
+
+.card-primary.card-outline {
+    border-top: 3px solid #0288d1 !important;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #0288d1 !important;
+    border-color: #0277bd !important;
+}
+
+.btn-primary:hover {
+    background-color: #0277bd !important;
+    border-color: #01579b !important;
+}
+
+.btn-info {
+    background-color: #29b6f6 !important;
+    border-color: #039be5 !important;
+    color: #fff !important;
+}
+
+.btn-info:hover {
+    background-color: #039be5 !important;
+    border-color: #0288d1 !important;
+}
+
+/* Content Wrapper Background */
+.content-wrapper {
+    background-color: #f0fbfd !important;
+}
+
+/* Accent Colors */
+.accent-primary .btn-link,
+.accent-primary a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link):not(.page-link):not(.btn) {
+    color: #0288d1;
+}

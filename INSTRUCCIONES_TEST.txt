@@ -1,0 +1,11 @@
+Por favor, abre tu navegador y ve a esta URL:
+
+http://localhost/EGRESAPP2/test_controller_direct.php
+
+Esto probará directamente si el controlador está devolviendo los datos correctamente.
+
+Luego, comparte una captura de pantalla de lo que ves.
+
+Si ves "✓ JSON VÁLIDO" y "Cantidad de registros: 15", entonces el problema está en el navegador/caché.
+
+Si ves un error o "0 registros", entonces hay un problema con el código que necesito investigar más.
