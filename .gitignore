@@ -11,6 +11,10 @@ Thumbs.db
 *.rar
 /certificados/*.pdf
 /certificados/*.docx
+!/certificados/MODELO CS*.docx
+!/certificados/MODELO CE*.docx
+!/certificados/*.docx
+
 /assets/expedientes/*
 !/assets/expedientes/.gitkeep
 /uploads/*
