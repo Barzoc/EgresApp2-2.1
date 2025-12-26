@@ -29,6 +29,16 @@ Para la lectura automática de expedientes PDF escaneados.
 ### 4. Dependencias de Sistema
 - **Visual C++ Redistributable (x64)**: Necesario para ciertas extensiones de PHP y Apache.
 
+### 📥 Enlaces de Descarga (Oficiales)
+| Software | Descripción | Enlace |
+|----------|-------------|--------|
+| **Laragon** | Servidor Web Full | [Descargar Laragon Full](https://github.com/leokhoa/laragon/releases/download/6.0.0/laragon-wamp.exe) |
+| **LibreOffice** | Generador de PDF | [Descargar LibreOffice](https://es.libreoffice.org/descarga/libreoffice/) |
+| **Python** | Python 3.10+ | [Descargar Python](https://www.python.org/downloads/) |
+| **Tesseract OCR** | Motor OCR | [Descargar Tesseract](https://github.com/UB-Mannheim/tesseract/wiki) |
+| **Ghostscript** | Intérprete PDF | [Descargar Ghostscript](https://ghostscript.com/releases/gsdnld.html) |
+| **VC++ Redox** | Librerías Visual C++ | [Descargar VC++ x64](https://aka.ms/vs/17/release/vc_redist.x64.exe) |
+
 ---
 
 ## 🚀 Instalación Automática
