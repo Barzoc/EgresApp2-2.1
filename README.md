@@ -20,9 +20,11 @@ El módulo de certificados requiere software externo para convertir Word a PDF.
 ### 3. Procesamiento de Imágenes (OCR)
 Para la lectura automática de expedientes PDF escaneados.
 - **Tesseract OCR**: Para reconocimiento de texto.
-  - Debe estar agregado al `PATH` de Windows.
 - **ImageMagick**: Para manipulación de imágenes previas al OCR.
 - **Ghostscript**: Intérprete de PDF.
+- **Python 3.10+**: Necesario para el motor de OCR avanzado (PaddleOCR).
+  - Paquetes requeridos: `paddleocr`, `paddlepaddle`, `numpy`, `pillow`, `pdf2image`, `opencv-python`.
+  - **Instalación:** Ejecutar `InstalarDependenciasPython.ps1` (incluido en scripts).
 
 ### 4. Dependencias de Sistema
 - **Visual C++ Redistributable (x64)**: Necesario para ciertas extensiones de PHP y Apache.
